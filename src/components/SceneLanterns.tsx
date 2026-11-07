@@ -59,7 +59,7 @@ export const SceneLanterns: React.FC<SceneLanternsProps> = ({ onComplete }) => {
   };
 
   return (
-    <div className="relative w-full h-full flex flex-col justify-between overflow-hidden bg-gradient-to-b from-[#040612] via-[#0b1029] to-[#040614] select-none p-4 sm:p-6">
+    <div className="relative w-full h-full flex flex-col justify-between overflow-hidden bg-gradient-to-b from-[#040612] via-[#0b1029] to-[#040614] select-none px-4 pt-16 pb-[max(1.75rem,env(safe-area-inset-bottom,1.75rem))] sm:p-6">
       {/* Decorative Traditional Indian Toran / Marigold Garland across top */}
       <div className="absolute top-0 left-0 right-0 h-16 pointer-events-none flex items-center justify-around opacity-70 z-10">
         {Array.from({ length: 12 }).map((_, i) => (
@@ -259,7 +259,7 @@ export const SceneLanterns: React.FC<SceneLanternsProps> = ({ onComplete }) => {
       </div>
 
       {/* Footer message & Transition */}
-      <div className="relative z-20 w-full max-w-md mx-auto flex flex-col items-center gap-3 mb-6">
+      <div className="relative z-20 w-full max-w-md mx-auto flex flex-col items-center gap-2 mb-2 sm:mb-4">
         <AnimatePresence>
           {!isSatisfied ? (
             <motion.p

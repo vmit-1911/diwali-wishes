@@ -63,7 +63,7 @@ export const SceneFuse: React.FC<SceneFuseProps> = ({ onIgniteComplete }) => {
     <div
       onPointerUp={handlePointerUp}
       onPointerCancel={handlePointerUp}
-      className="relative w-full h-full flex flex-col justify-between overflow-hidden bg-gradient-to-b from-[#020206] via-[#050612] to-[#010204] select-none p-4 sm:p-6"
+      className="relative w-full h-full flex flex-col justify-between overflow-hidden bg-gradient-to-b from-[#020206] via-[#050612] to-[#010204] select-none px-4 pt-16 pb-[max(1.75rem,env(safe-area-inset-bottom,1.75rem))] sm:p-6"
     >
       {/* Night Sky Silhouette & Subtle Star Field */}
       <div className="absolute inset-0 pointer-events-none opacity-40 bg-[radial-gradient(circle_at_top,_rgba(255,140,0,0.15)_0%,_transparent_60%)]" />

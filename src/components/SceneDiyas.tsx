@@ -46,7 +46,7 @@ export const SceneDiyas: React.FC<SceneDiyasProps> = ({
   };
 
   return (
-    <div className="relative w-full h-full flex flex-col items-center justify-between overflow-hidden bg-gradient-to-b from-[#02030a] via-[#080a1c] to-[#04060f] select-none p-4 sm:p-6">
+    <div className="relative w-full h-full flex flex-col items-center justify-between overflow-hidden bg-gradient-to-b from-[#02030a] via-[#080a1c] to-[#04060f] select-none px-4 pt-16 pb-[max(1.75rem,env(safe-area-inset-bottom,1.75rem))] sm:p-6">
       {/* Dynamic ambient illumination that expands as more diyas are lit */}
       <div
         className="absolute inset-0 pointer-events-none transition-all duration-1000"
@@ -233,7 +233,7 @@ export const SceneDiyas: React.FC<SceneDiyasProps> = ({
       </div>
 
       {/* Footer message and next scene transition */}
-      <div className="relative z-20 w-full max-w-md flex flex-col items-center gap-3 mb-6">
+      <div className="relative z-20 w-full max-w-md flex flex-col items-center gap-2 mb-2 sm:mb-4">
         <AnimatePresence>
           {!allLit ? (
             <motion.div

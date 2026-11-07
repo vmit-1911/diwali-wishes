@@ -46,7 +46,7 @@ export function App() {
   };
 
   return (
-    <main className="relative w-full h-full min-h-screen max-h-screen overflow-hidden bg-[#020208] text-slate-100 flex flex-col justify-center select-none font-outfit">
+    <main className="relative w-full h-[100dvh] overflow-hidden bg-[#020208] text-slate-100 flex flex-col justify-between select-none font-outfit">
       {/* Universal Ambient Gold Floating Particles */}
       <ParticleSystem
         density={currentChapter === 0 ? 25 : currentChapter === 6 ? 60 : 40}

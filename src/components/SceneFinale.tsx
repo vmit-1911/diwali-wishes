@@ -31,7 +31,7 @@ export const SceneFinale: React.FC<SceneFinaleProps> = ({
   };
 
   return (
-    <div className="relative w-full h-full flex flex-col justify-between overflow-hidden bg-[#020207] select-none p-4 sm:p-6">
+    <div className="relative w-full h-full flex flex-col justify-between overflow-hidden bg-[#020207] select-none px-4 pt-16 pb-[max(1.75rem,env(safe-area-inset-bottom,1.75rem))] sm:p-6">
       {/* Dynamic Fullscreen HTML5 Canvas Fireworks Layer */}
       <FireworksCanvas
         colors={fireworkColors}

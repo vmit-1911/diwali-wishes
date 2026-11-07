@@ -34,7 +34,7 @@ export const SceneEnvelope: React.FC<SceneEnvelopeProps> = ({
   };
 
   return (
-    <div className="relative w-full h-full flex flex-col justify-between overflow-hidden bg-gradient-to-b from-[#03040a] via-[#090b1c] to-[#020308] select-none p-4 sm:p-6">
+    <div className="relative w-full h-full flex flex-col justify-between overflow-hidden bg-gradient-to-b from-[#03040a] via-[#090b1c] to-[#020308] select-none px-4 pt-16 pb-[max(1.75rem,env(safe-area-inset-bottom,1.75rem))] sm:p-6">
       {/* Background radial gold glow */}
       <div className="absolute inset-0 pointer-events-none opacity-30 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-amber-500/20 via-transparent to-transparent" />
 
@@ -194,7 +194,7 @@ export const SceneEnvelope: React.FC<SceneEnvelopeProps> = ({
       </div>
 
       {/* Footer Navigation */}
-      <div className="relative z-20 w-full max-w-md mx-auto flex flex-col items-center gap-2 mb-6">
+      <div className="relative z-20 w-full max-w-md mx-auto flex flex-col items-center gap-1.5 mb-2 sm:mb-4">
         <AnimatePresence>
           {isLetterRevealed && (
             <motion.div
