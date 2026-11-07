@@ -28,7 +28,7 @@ export const SceneOpening: React.FC<SceneOpeningProps> = ({ onComplete }) => {
       const timer = setTimeout(() => {
         setCurrentLineIndex((prev) => prev + 1);
         sound.playSparkle(0.9 + currentLineIndex * 0.15);
-      }, 2600);
+      }, 4000); // Gentle reading pace (4 seconds per poetic quote)
       return () => clearTimeout(timer);
     }
   }, [currentLineIndex]);
