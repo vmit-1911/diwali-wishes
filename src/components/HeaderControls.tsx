@@ -24,7 +24,7 @@ export const HeaderControls: React.FC<HeaderControlsProps> = ({
         <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
         <span className="font-cinzel tracking-wider uppercase font-semibold">
           {currentChapter === 0
-            ? 'Prelude'
+            ? 'Chapter 0'
             : currentChapter > 5
             ? 'Grand Finale'
             : `Chapter ${currentChapter}`}
