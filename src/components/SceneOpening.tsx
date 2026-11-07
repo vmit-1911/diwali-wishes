@@ -7,10 +7,11 @@ interface SceneOpeningProps {
 }
 
 const NARRATIVE_LINES = [
+  'Visnu made this for you...',
+  'In a world full of stars, some lights shine just a little brighter.',
   'Every celebration has a beginning...',
   'Every light tells a story...',
-  'And tonight...',
-  'Something magical is waiting for you.',
+  'And tonight, something magical is waiting for you, Pranika.',
 ];
 
 export const SceneOpening: React.FC<SceneOpeningProps> = ({ onComplete }) => {
