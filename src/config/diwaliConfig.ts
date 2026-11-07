@@ -20,24 +20,24 @@ export interface DiwaliConfig {
 }
 
 export const diwaliConfig: DiwaliConfig = {
-  friendName: "Best Friend",
+  friendName: "Pranika",
   senderName: "Visnu Mitran",
   greetingTitle: "HAPPY DIWALI!",
   tagline: "Tonight, the magic is in your hands.",
   diyaCount: 7,
   letter: {
-    salutation: "To my favourite human,",
+    salutation: "To my favourite human, Pranika,",
     paragraphs: [
-      "Life is a little more beautiful with friends like you.",
-      "May your days be filled with happiness, your dreams find their way into reality, and your life always shine brighter than these thousand lights.",
-      "Here's to more laughter, unforgettable memories, and countless crazy moments together.",
-      "You deserve all the happiness in the universe."
+      "Life is so much more vibrant and beautiful with a friend like you.",
+      "May your days be filled with endless happiness, your dreams find their way into reality, and your life always shine brighter than these thousand lights.",
+      "Here's to more heartfelt laughter, unforgettable memories, and countless crazy moments together.",
+      "You deserve all the joy and wonders in the universe."
     ],
     closing: "Always grateful for you ✨"
   },
   finalGreeting: {
     hero: "HAPPY DIWALI!",
-    subHero: "To my BEST FRIEND ❤️",
+    subHero: "To my dearest friend Pranika ❤️",
     wishes: [
       "May your life always shine brighter than a thousand stars.",
       "May happiness follow you everywhere, success find you at every turn, and may we create countless more memories together.",
